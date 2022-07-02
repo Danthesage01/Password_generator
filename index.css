@@ -60,7 +60,6 @@ margin: 10px 0;
 }
 
 .input-intro{
- 
     margin-top: 5px;
     border-top: 1px solid #D5D4D8;
     padding-top: 20px ;
@@ -97,7 +96,7 @@ margin: 10px 0;
 }
 .input-grid{
     display: grid;
-    grid-template-columns: repeat(2, 180px);
+    grid-template-columns: repeat(2, 160px);
     gap: 1rem 0.5rem;
 }
 @media screen and (min-width: 768px) {
