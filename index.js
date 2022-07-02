@@ -62,7 +62,8 @@ function password4() {
 
 function generatePassword() {
   let input = document.getElementById("input-el")
-  input.style.display = "block"
+  // input.style.display = "block"
+  input.classList.add("input-grid") 
 
   password1()
   password2()

@@ -93,8 +93,12 @@ margin: 10px 0;
     color: #10B981;
     font-weight: bold;
     border: none;
-    pointer-events: none;
-    
+    pointer-events: none; 
+}
+.input-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-column: 0.25rem;
 }
 @media screen and (min-width: 768px) {
    .container{
