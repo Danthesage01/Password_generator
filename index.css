@@ -108,5 +108,9 @@ margin: 10px 0;
     padding: 40px 60px;
     margin-top: 5%;
 } 
+.input-grid{
+    grid-template-columns: repeat(2, 1fr);
+     grid-column: 2rem;
+}
 }
 
