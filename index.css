@@ -15,7 +15,7 @@ background-color: black;
 } 
 
    .container{
-    width: 95vw;
+    width: 90vw;
     height: 600px;
     margin: 0 auto;
     background-color: #ECFDF5;
@@ -68,26 +68,14 @@ margin: 10px 0;
 }
 .input-div{
     display: none;
-    justify-content: space-between;
     margin: 15px 0 ;
-}
-.input-div .left{
-    margin-bottom: 20px;
-    margin-left:0 ;
-}
-.input-div .right{
-    margin-bottom: 20px;
-    margin-right:0;
-    margin-left: 5px;
-}
-.input-div .top{
-    margin-bottom: 30px;
 }
 .input{
     background-color: #273549;
     border-radius: 10px;
     text-align: center;
-    padding: 15px 10px;
+    height: 50px;
+    width: 100%;
     font-size: 15px;
     color: #10B981;
     font-weight: bold;
@@ -96,8 +84,8 @@ margin: 10px 0;
 }
 .input-grid{
     display: grid;
-    grid-template-columns: repeat(2, 150px);
-    grid-column: 0.2rem;
+    grid-template-columns: repeat(2, 200px);
+    gap: 1rem 1rem;
 }
 @media screen and (min-width: 768px) {
    .container{
