@@ -96,8 +96,8 @@ margin: 10px 0;
 }
 .input-grid{
     display: grid;
-    grid-template-columns: repeat(2, 200px);
-    grid-column: 0.25rem;
+    grid-template-columns: repeat(2, 150px);
+    grid-column: 0.2rem;
 }
 @media screen and (min-width: 768px) {
    .container{
@@ -110,7 +110,6 @@ margin: 10px 0;
 } 
 .input-grid{
     grid-template-columns: repeat(2, 1fr);
-     grid-column: 2rem;
 }
 }
 
